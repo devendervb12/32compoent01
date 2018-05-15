@@ -29,7 +29,7 @@
 				 "viewName" : "Page1"
 				}, 
 				{
-				"pattern" : "toPage2",
+				"pattern" : "toPage2/{pId}",
 				"name" : "p2",
 				"viewName" : "Page2"				
 				}

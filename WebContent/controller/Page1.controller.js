@@ -35,11 +35,8 @@ sap.ui.controller("smax.batch32.A1.controller.Page1", {
 //
 //	}
 	gotoPage2 : function() {
-	 	// get ref of Router
-		/*var oComp = this.getOwnerComponent();
-		var oRouter = oComp.getRouter();
-		oRouter.navTo("p2");*/
+	 
 		
-		this.getOwnerComponent().getRouter().navTo("p2");
+		this.getOwnerComponent().getRouter().navTo("p2", {pId : "HT-1000"});
 	}
 });
