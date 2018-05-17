@@ -2,7 +2,14 @@
 		 controllerName="smax.batch32.A1.controller.Page2" xmlns:html="http://www.w3.org/1999/xhtml">
 	<Page title="Page2">
 		<content>
-	        <Button text="Back to Page1" press="gotoPage1"/>
+		<VBox>
+		   <items>
+		        <Text text="{ProductID}"/>
+	        <Text text="{Name}"/>
+	        <Text text="{Category}"/>
+		   </items>
+		</VBox>
+	       
 		</content>
 	</Page>
 </core:View>

@@ -34,9 +34,18 @@ sap.ui.controller("smax.batch32.A1.controller.Page1", {
 //	onExit: function() {
 //
 //	}
-	gotoPage2 : function() {
+	gotoPage2 : function(oEvent) {
 	 
+	//	debugger;
+		//get productID
+	//	var productId = oEvent.getSource().getTitle();
 		
-		this.getOwnerComponent().getRouter().navTo("p2", {pId : "HT-1000"});
+		this.getOwnerComponent().getRouter().navTo("p2", {pId : oEvent.getSource().getTitle() });
 	}
 });
+
+
+
+
+
+
